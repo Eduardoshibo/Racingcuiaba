@@ -42,9 +42,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       templateUrl: 'templates/calendario.html'
     })
 
-        .state('informaçoes', {
-      url: '/informaçoes',
-      templateUrl: 'templates/informaçoes.html'
+        .state('informacoes', {
+      url: '/informacoes',
+      templateUrl: 'templates/informacoes.html'
+    })
+
+     .state('telefone', {
+      url: '/telefone',
+      templateUrl: 'templates/telefone.html'
+    })
+
+  .state('email', {
+      url: '/email',
+      templateUrl: 'templates/email.html'
     })
 
 
